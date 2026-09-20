@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 16px;
+  text-align: center;
+}
+
+button {
+  height: 38px;
+  padding: 0 14px;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.panel {
+  border: 1px solid #d7dee8;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary {
+  color: white;
+  background-color: #0f766e;
+}
+
+/* Pagination */
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 0;
+  border-radius: 6px;
+  height: 50px;
+  box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.pagination .page {
+  background-color: #94b2fd;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.pagination .active {
+  background-color: #1f5eff;
+}
+
+.pagination a:hover {
+  background-color: #1f5eff;
+}
