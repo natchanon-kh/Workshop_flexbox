@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 12px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #1f5eff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.cta {
+  padding: 9px 16px;
+  border: 1px solid #1f5eff;
+  background-color: #1f5eff;
+  border-radius: 6px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+}
+
+.nav a {
+  color: #46556d;
+  font-size: 14px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 0;
+  border-radius: 6px;
+  height: 50px;
+  box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.pagination .page {
+  background-color: #94b2fd;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 12px;
+  font-weight: 700;
+}
+.pagination .active {
+  background-color: #1f5eff;
+}
+
+.pagination a:hover {
+  background-color: #1f5eff;
+}
