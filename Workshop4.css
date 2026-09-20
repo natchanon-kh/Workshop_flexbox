@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-list {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #d9e0ea;
+  border-radius: 8px;
+  height: 160px;
+}
+
+.card p:last-child {
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.card__eyebrow {
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+/* PAGINATION */
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 0;
+  border-radius: 6px;
+  height: 50px;
+  box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.pagination .page {
+  text-decoration: none;
+  background-color: #94b2fd;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 12px;
+  font-weight: 700;
+}
+.pagination .active {
+  background-color: #1f5eff;
+}
+
+.pagination a:hover {
+  background-color: #1f5eff;
+}
