@@ -74,10 +74,10 @@ button {
 .summary {
   display: flex;
   gap: 16px;
-  background-color: white;
 }
 
 article {
+  background-color: white;
   border: 1px solid #d9e0ea;
   padding: 18px;
   border-radius: 8px;
