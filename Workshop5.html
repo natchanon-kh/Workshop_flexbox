@@ -1,24 +1,45 @@
-<main class="dashboard">
-  <aside class="sidebar">
-    <p class="logo">Array-a</p>
-    <a href="#">Overview</a>
-    <a href="#">Lessons</a>
-    <a href="#">Workshops</a>
-  </aside>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop 5: Dashboard Shell</title>
+    <link rel="stylesheet" href="./Workshop5.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <aside class="sidebar">
+        <p class="logo">Array-a</p>
+        <a href="#">Overview</a>
+        <a href="#">Lessons</a>
+        <a href="#">Workshops</a>
+      </aside>
 
-  <section class="main">
-    <div class="topbar">
-      <div>
-        <p class="label">Flexbox Workshop</p>
-        <h1>จัดพื้นที่หลักของ dashboard</h1>
+      <section class="main">
+        <div class="topbar">
+          <div>
+            <p class="label">Flexbox Workshop</p>
+            <h1>จัดพื้นที่หลักของ dashboard</h1>
+          </div>
+          <button>New lesson</button>
+        </div>
+
+        <div class="summary">
+          <article>Courses<br /><strong>12</strong></article>
+          <article>Lessons<br /><strong>64</strong></article>
+          <article>Workshops<br /><strong>8</strong></article>
+        </div>
+      </section>
+    </main>
+
+    <div class="page-container">
+      <div class="pagination">
+        <a class="page" href="./index.html">1</a>
+        <a class="page" href="./Workshop2.html">2</a>
+        <a class="page" href="./Workshop3.html">3</a>
+        <a class="page" href="./Workshop4.html">4</a>
+        <a class="page active" href="./Workshop5.html">5</a>
       </div>
-      <button>New lesson</button>
     </div>
-
-    <div class="summary">
-      <article>Courses<br /><strong>12</strong></article>
-      <article>Lessons<br /><strong>64</strong></article>
-      <article>Workshops<br /><strong>8</strong></article>
-    </div>
-  </section>
-</main>
+  </body>
+</html>
