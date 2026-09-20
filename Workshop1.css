@@ -8,7 +8,7 @@
 
 body {
   margin: 12px;
-  text-align: center;
+  background-color: #eef3f7;
 }
 
 a {
@@ -19,6 +19,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  height: 72px;
+  gap: 24px;
+  padding: 0 28px;
 }
 
 .brand {
@@ -33,6 +37,7 @@ a {
   background-color: #1f5eff;
   border-radius: 6px;
   color: white;
+  font-weight: 700px;
 }
 
 .nav {
@@ -45,6 +50,12 @@ a {
   font-size: 14px;
 }
 
+/* PAGINATION */
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
 .pagination {
   display: inline-block;
   margin-top: 40px;
@@ -55,6 +66,7 @@ a {
 }
 
 .pagination .page {
+  text-decoration: none;
   background-color: #94b2fd;
   color: white;
   padding: 12px;
